@@ -27,6 +27,7 @@
 # Steps to push a file in a existing repository:-
 
 *On your computer, move the file you'd like to upload to GitHub into the local directory that was created when you cloned the repository. 2.Open Terminal. 3.Change the current working directory to your local repository.
+
 ->git add --all
 
 ->git commit -m "Add existing file" 6.git push
@@ -37,7 +38,8 @@
 *cd path to the local directory path
 *git remote add upstream url ( of the repository from where you forked ) - this is needed for the first time only .
 *git pull upstream main(or master) -- this need to be done everytime you want the updated project .
-*Steps to push a file into a new repository :-
+
+# Steps to push a file into a new repository :-
 
 *go to terminal and change directory to the path of the project/folder
 
